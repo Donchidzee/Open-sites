@@ -1,0 +1,18 @@
+.contacts {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+    /* border: 1px solid red; */
+}
+
+.contacts__number{
+    display: flex;    
+    justify-content: flex-end;
+    color: #fff;
+    line-height: 30px;
+
+    /* border: 1px solid red; */
+}

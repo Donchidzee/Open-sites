@@ -1,0 +1,114 @@
+.site-types {
+    background-image: url('/assets/img/background/laptop.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+   
+    border: 1px solid red;
+}
+
+.dark-background {
+    background-image: url('/assets/img/background/darkback.png');
+
+    height: 70%;
+    width: 80%;
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    border: 1px solid red;
+}
+
+.dark__blue-words {
+    height: 100%;
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    border: 1px solid red;
+}
+
+.blue-words__text {
+    width: 85%;
+    
+    margin-right: auto;
+    margin-left: auto;
+
+    color: #48c0cc;
+    text-align: left;
+
+    /* border: 1px solid red; */
+}
+
+.dark__components {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: space-around;
+
+    border: 1px solid red;
+}
+
+.site-kinds {
+    height: 40%;
+    width: 40%;
+
+    
+    
+
+    border: 1px solid red;
+}
+
+.sitecard {
+    height: 100%;
+
+    
+
+    border: 1px solid red;
+}
+
+.sitecard-img {
+    border: 1px solid red;
+}
+
+.sitecard-title {
+    width: 45%;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    border: 1px solid red;
+}
+
+.sitecard-text {
+    width: 90%;
+    height: 30%;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    border: 1px solid red;
+}
+
+.cards {
+    height: 33.3%;
+}
+

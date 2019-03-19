@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+} 
+
+.intro-block{
+    background-image: url('/assets/img/Background/computer.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* border: 1px solid red; */
+}
+
+.navbar{
+    height: 95px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* border: 1px solid red; */
+}
+
+.navbar__logo-container {
+    width: 25%;
+    height: 100%;
+    cursor: pointer;
+
+    /* border: 1px solid red; */
+}
+
+.navbar__logo{
+    height: 100%;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+
+.navbar__menu {
+    width: 75%;
+    
+    text-align: center; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    list-style: none;
+    /* border: 1px solid red; */
+}
+
+.navbar__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    
+
+    /* border: 1px solid red; */
+}
+
+.navbar__link-extra {
+    color: #48c0cc;
+    text-decoration: none;
+    font-size: 17px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    box-shadow: 0 0 30px rgba(243, 240, 240, 0.5);
+    transition: all 0.75s ease 0s;
+    border: 2px solid #48c0cc;
+    border-radius: 10px;
+}
+
+.navbar__link:hover {
+    color: #48c0cc;
+}
+
+.navbar__link-extra:hover{
+    color: #fff;
+    background-color: #48c0cc;
+    border: 2px solid #fff;
+}
+
+
