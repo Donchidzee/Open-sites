@@ -71,34 +71,30 @@
     height: 40%;
     width: 40%;
 
-    
-    
-
-    border: 1px solid red;
+    border: 1px solid #48c0cc;
 }
 
 .sitecard {
     height: 100%;
 
-    
-
     border: 1px solid red;
 }
 
 .sitecard-img {
+    
     border: 1px solid red;
 }
 
-.sitecard-title {
+/* .sitecard-title {
     width: 45%;
 
     margin-right: auto;
     margin-left: auto;
 
     border: 1px solid red;
-}
+} */
 
-.sitecard-text {
+/* .sitecard-text {
     width: 90%;
     height: 30%;
 
@@ -106,9 +102,15 @@
     margin-left: auto;
 
     border: 1px solid red;
-}
+} */
 
 .cards {
-    height: 33.3%;
+    height: 32%;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+
+    border: 1px solid red;
 }
 
