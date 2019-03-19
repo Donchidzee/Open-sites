@@ -38,7 +38,7 @@
     background-repeat: no-repeat;
     background-position: center;
    
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .dark__blue-words {
@@ -46,10 +46,10 @@
     width: 40%;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .blue-words__text {
@@ -72,53 +72,37 @@
     flex-flow: column wrap;
     justify-content: space-around;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .site-kinds {
     height: 40%;
     width: 40%;
 
-    border: 1px solid #48c0cc;
+    border: 1px solid #fff;
 }
 
 .sitecard {
     height: 100%;
 
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    /* border: 1px solid red; */
 }
 
-.sitecard-img {
-    
-    border: 1px solid red;
+.cards__title {
+    font-size: 22px;
 }
-
-/* .sitecard-title {
-    width: 45%;
-
-    margin-right: auto;
-    margin-left: auto;
-
-    border: 1px solid red;
-} */
-
-/* .sitecard-text {
-    width: 90%;
-    height: 30%;
-
-    margin-right: auto;
-    margin-left: auto;
-
-    border: 1px solid red;
-} */
 
 .cards {
-    height: 32%;
-    margin: 0;
+    color: #fff;
 
     display: flex;
     justify-content: center;
+    text-align: center;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
