@@ -1,13 +1,19 @@
 .site-types {
-    background-image: url('/assets/img/background/laptop.png');
     height: 100vh;
     width: 100%;
-    background-size: cover;
+    background-image: url('/assets/img/background/laptop.png');
+    /* Белая полоска появляется из-за неправильно интепретации браузером, судя по всему. Поэтому лучшии вариантом является подобрать размер картинки в пикселях */
+    background-size: 200%;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
-    border: 1px solid red;
+    /* border создает дополнительный пиксель вокруг блока из-за чего появляется горизонтальный скролл */
+    /* border: 1px solid red; */
 }
 
 .dark-background {
@@ -16,12 +22,14 @@
     height: 70%;
     width: 80%;
     
-    position: absolute;
+    /* Не понял для чего здесь нужен position absolute */
+    /* position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
-    margin: auto;
+    right: 0; */
+    /* Выравнивания данного блока мы добились с помощью flexbox в родительском блоке .site-types */
+    /* margin: auto; */
 
     display: flex;
     flex-direction: row;
@@ -30,7 +38,7 @@
     background-repeat: no-repeat;
     background-position: center;
    
-    border: 1px solid red;
+    border: 1px solid green;
 }
 
 .dark__blue-words {
