@@ -3,7 +3,7 @@
     width: 100%;
     background-image: url('/assets/img/background/laptop.png');
     /* Белая полоска появляется из-за неправильно интепретации браузером, судя по всему. Поэтому лучшии вариантом является подобрать размер картинки в пикселях */
-    background-size: 200%;
+    background-size: 130%;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;

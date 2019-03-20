@@ -10,6 +10,7 @@
 <body>
     <section class="intro-block">
         <header class="navbar">
+            <!-- Надо добавить отступы сверху для логотипа, он прилип к верхнему краю экрана -->
             <div class="navbar__logo-container">
                 <img src="/assets/img/logo.png" alt="open sites logo" class="navbar__logo">
             </div>
@@ -63,10 +64,14 @@
                 и эффективное продвижение сайтов в поисковых системах.</p>
             </div>
             <div class="dark__components">
+                <!-- Зачем создавать два вложенных блока .site-kinds и .sitecard. Я глянул в css стили, flexbox можно использовать внутри .sitecard. Удали .site-kinds-->
+                <!-- Если ты придерживаешься правила разделение через тире, то почему .sitecard написан не как .site-card? -->
                 <div class="site-kinds">
                     <div class="sitecard">
                         <div class="cards"><img src="/assets/img/sitecard.png" alt="sitecard"></div>
+                        <!-- Почему у текста класс cards? -->
                         <p class="cards cards__title">Сайт визитка</p>
+                        <!-- Здесь не соответствует БЭМ -->
                         <p class="cards">Небольшой сайт, содержащий основную
                             информацию о компании.</p>
                     </div>    
