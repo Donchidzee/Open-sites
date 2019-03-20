@@ -19,6 +19,7 @@
     height: 95px;
     width: 80%;
     margin: auto;
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
