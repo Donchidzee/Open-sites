@@ -1,23 +1,16 @@
-.reasons{
+.reasons-2 {
     height: 100vh;
     width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     background-color: #dcdbdb;
 }
 
-.reasons__title{
-    height: 15vh;
-    padding-top: 5vh;
-    font-size: 250%;
-    color: #037f8b;
 
-    display: flex;
-    justify-content: center;
-
-    /* border: 1px solid red; */
-}
-
-.reasons__unique-approach {
+/* .reasons__unique-approach {
     height: 70vh;
     width: 90%;
 
@@ -26,17 +19,17 @@
 
     display: flex;
 
-    /* border: 1px solid red; */
-}
+    border: 1px solid red;
+} */
 
-.unique-approach__text {
+/* .unique-approach__text {
     width: 50%;
     height: 100%;
 
-    /* border: 1px solid red; */
-}
+    border: 1px solid red;
+} */
 
-.text {
+/* .text {
     width: 100%;
     height: 100%;
 
@@ -46,66 +39,67 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-}
+} */
 
-.text__title {
-    width: 60%;
+.text__title-2 {
+    width: 70%;
 
     font-size: 25px;
     
     /* border: 1px solid red; */
 }
 
-.text__description {
-    width: 60%;
+.text__description-2 {
+    width: 70%;
 
     /* border: 1px solid red; */
 }
 
-.unique-approach__computer {
+.unique-approach__laptop {
     width: 50%;
-    height: 100%;
+    height:100%;
 
     display: flex;
+    align-items: center;
     justify-content: center;
 
-    /* border: 1px solid red; */
+    /* border: 1px solid green; */
 }
 
-.computer__img {
-    height: 100%;
+.laptop__img {
+    /* height: 70%; */
     width: 100%;
 
     /* border: 1px solid red; */
 }
 
-.text {
+/* .text {
     height: 30%;
 
-    /* border: 1px solid red; */
-}
+    border: 1px solid red;
+} */
 
-.block-circle {
+/* .block-circle {
     height: 69%;
 
     display: flex;
     justify-content: center;
 
-    /* border: 1px solid red; */
-}
+    border: 1px solid red;
+} */
 
-.circle {
+.circle-2 {
     height: 300px;
     width: 300px;
 
-    background-color: #4b4b71;
+    background-color: #03bdd5;
 
     border-radius: 50%;
 
     /* border: 1px solid red; */
 }
 
-.circle__title {
+/* .circle__title {
     margin-top: 50px;;
     color: #fff;
     font-size: 40px;
@@ -113,15 +107,15 @@
     display: flex;
     justify-content: center;
 
-    /* border: 1px solid red; */
-}
+    border: 1px solid red;
+} */
 
-.circle__paragraph {
+/* .circle__paragraph {
     margin-top: 35px;;
     color: #fff;
 
     display: flex;
     text-align: center;
 
-    /* border: 1px solid red; */
-}
+    border: 1px solid red;
+} */
