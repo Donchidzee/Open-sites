@@ -6,7 +6,12 @@
     align-items: center;
     justify-content: center;
 
-    background-color: #dcdbdb;
+    background-image: url(/assets/img/pen.png);
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    background-color: #f5eeef;
 }
 
 
