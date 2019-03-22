@@ -1,0 +1,47 @@
+.reasons-7 {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(/assets/img/top.png);
+    /* фотка не доработанная, надо сделать тень, без Толегена не могу */
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center left;
+
+    /* background-color: #f5eeef; */
+}
+
+.site__img {
+    width: 100%;
+   
+    /* border: 1px solid red; */
+}
+
+.text__title-7 {
+    width: 60%; 
+
+    font-size: 25px;
+    
+    /* border: 1px solid red; */
+}
+
+.text__description-7 {
+    width: 60%;
+
+    /* border: 1px solid red; */
+}
+
+.circle-7 {
+    height: 300px;
+    width: 300px;
+
+    background-color: #8ac132;
+
+    border-radius: 50%;
+
+    /* border: 1px solid red; */
+}

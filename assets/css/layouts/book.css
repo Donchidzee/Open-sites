@@ -1,0 +1,11 @@
+.book {
+    height: 200vh;
+    width: 100%;
+
+    background-image: url(/assets/img/book.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: center right;
+
+    background-color: #f5eeef;
+}
