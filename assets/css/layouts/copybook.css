@@ -1,0 +1,11 @@
+.copybook {
+    height: 200vh;
+    width: 100%;
+
+    background-image: url(/assets/img/notebook.png);
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: center left;
+
+    background-color: #f5eeef;
+}

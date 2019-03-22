@@ -1,0 +1,27 @@
+.unique-approach__monoblock {
+    width: 50%;
+    height:100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* border: 1px solid green; */
+}
+
+.monoblock__img {
+    height: 100%;
+   
+    /* border: 1px solid red; */
+}
+
+.circle-4 {
+    height: 300px;
+    width: 300px;
+
+    background-color: #ce1b28;
+
+    border-radius: 50%;
+
+    /* border: 1px solid red; */
+}
