@@ -78,12 +78,12 @@
                     </div>    
                 </div>
                 <div class="site-kinds">
-                    <div class="site-card">
+                    <!-- <div class="site-card"> -->
                         <div class="cards"><img src="/assets/img/Corporate-website.png" alt="sitecard"></div>
                         <p class="cards cards__title">Корпоративный сайт</p>
                         <p class="cards">Содержащую полную информацию о 
                             компании, услугах/продукции.</p>
-                    </div>    
+                    <!-- </div>     -->
                 </div>
                 <div class="site-kinds">
                     <div class="site-card">
@@ -106,7 +106,9 @@
     </section>
 
     <section class="reasons">
+        <!-- Критическая ошибка: тег h1 должен использовать только один раз на странице -->
         <h1 class="reasons__title">ПОЧЕМУ НАШИ САЙТЫ?</h1>
+        <!-- Не создавай блок unique-approach нельзя использовать его дочерние элементы вроде  .unique-approach__text, unique-approach__computer-->
         <div class="reasons__unique-approach">
             <div class="unique-approach__text">
                 <div class="text">
@@ -130,6 +132,7 @@
         </div>
     </section>
 
+    <!-- Рекомендация: не стоит использовать номера в названиях блоков, порядок может быть изменен и это противоречит основному правилу БЭМ о переиспользовании компонентов -->
     <section class="reasons-2">
         <div class="reasons__unique-approach">
             <div class="unique-approach__laptop">

@@ -79,6 +79,10 @@
     height: 40%;
     width: 40%;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
     border: 1px solid #fff;
 }
 
@@ -86,9 +90,7 @@
 .site-card {
     height: 100%;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+
 
     /* border: 1px solid red; */
 }
