@@ -68,14 +68,14 @@
                 <!-- Зачем создавать два вложенных блока .site-kinds и .sitecard. Я глянул в css стили, flexbox можно использовать внутри .sitecard. Удали .site-kinds-->
                 <!-- Если ты придерживаешься правила разделение через тире, то почему .sitecard написан не как .site-card? -->
                 <div class="site-kinds">
-                    <div class="site-card">
+                    <!-- <div class="site-card"> -->
                         <div class="cards"><img src="/assets/img/sitecard.png" alt="sitecard"></div>
                         <!-- Почему у текста класс cards? -->
                         <p class="cards cards__title">Сайт визитка</p>
                         <!-- Здесь не соответствует БЭМ -->
                         <p class="cards">Небольшой сайт, содержащий основную
                             информацию о компании.</p>
-                    </div>    
+                    <!-- </div>     -->
                 </div>
                 <div class="site-kinds">
                     <!-- <div class="site-card"> -->
@@ -86,27 +86,26 @@
                     <!-- </div>     -->
                 </div>
                 <div class="site-kinds">
-                    <div class="site-card">
+                    <!-- <div class="site-card"> -->
                         <div class="cards"><img src="/assets/img/landing-page.png" alt="sitecard"></div>
                         <p class="cards cards__title">Landing page</p>
                         <p class="cards">Для тех кто хочет быстро продать или 
                             рекламировать товар. </p>
-                    </div>    
+                    <!-- </div>     -->
                 </div>
                 <div class="site-kinds">
-                    <div class="site-card">
+                    <!-- <div class="site-card"> -->
                         <div class="cards"><img src="/assets/img/online-store.png" alt="sitecard"></div>
                         <p class="cards cards__title">Интернет магазин</p>
                         <p class="cards">Удобный уникальный магазин со
                             всеми вашими товарами и услугами</p>
-                    </div>    
+                    <!-- </div>     -->
                 </div>
             </div>
         </div>
     </section>
 
     <section class="reasons">
-        <!-- Критическая ошибка: тег h1 должен использовать только один раз на странице -->
         <h1 class="reasons__title">ПОЧЕМУ НАШИ САЙТЫ?</h1>
         <!-- Не создавай блок unique-approach нельзя использовать его дочерние элементы вроде  .unique-approach__text, unique-approach__computer-->
         <div class="reasons__unique-approach">
@@ -312,6 +311,102 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="advantages">
+        <div class="advantages__title">
+            <span class="advantages__text"><strong>НАШИ ПРЕИМУЩЕСТВА</strong></span>
+        </div>
+        <div class="advantage__all">
+            <div class="advantage">
+                <div class="advantage__img">
+                    <img src="assets/img/background/safety.png" alt="safety">
+                </div>
+                <div class="main-text">
+                        <p class="advantage__text">Надежность.
+                                Оплата в конце</p>
+                    </div>
+            </div>
+            <div class="advantage">
+                <div class="advantage__img">
+                    <img src="/assets/img/cost.png" alt="cost">
+                </div>
+                <div class="main-text">
+                    <p class="advantage__text">Цена.
+                        Самые низкие
+                        цены на рынке</p>
+                </div>
+            </div>
+            <div class="advantage">
+                <div class="advantage__img">
+                    <img src="/assets/img/dedline.png" alt="dedline">
+                </div>
+                <div class="main-text">
+                    <p class="advantage__text">Дэдлайны.
+                            Выполним любую
+                            работу в срок
+                            и это ЖЕЛЕЗНО</p>
+                </div>
+            </div>
+            <div class="advantage">
+                <div class="advantage__img">
+                    <img src="/assets/img/supporting.png" alt="supporting">
+                </div>
+                <div class="main-text">
+                    <p class="advantage__text">Тех поддержка.
+                            Работаем 24/7 и
+                            без выходный</p>
+                </div>
+            </div>
+            <div class="advantage">
+                <div class="advantage__img">
+                    <img src="/assets/img/integration.png" alt="integration">
+                </div>
+                <div class="main-text">
+                    <p class="advantage__text">
+                            Свяжем ваш сайт с вашими:
+                            соц сетями и номером
+                            телефона</p>
+                </div>
+            </div>                                                                        
+        </div>
+    </section>
+
+    <section class="open-site-works">
+        <div class="open-site-works__title">
+            <p class="open-site-works__text">РАБОТЫ OPENSITES:</p>
+        </div>
+        <div class="site-examples">
+
+            <div class="example">
+                <div class="example-img">
+                    <img src="" alt="">
+                </div>
+                <div class="example-text">домен сайта</div>
+            </div>
+
+            <div class="example">
+                <div class="example-img">
+                    <img src="" alt="">
+                </div>
+                <div class="example-text">домен сайта</div>
+            </div>
+
+            <div class="example">
+                <div class="example-img">
+                    <img src="" alt="">
+                </div>
+                <div class="example-text">домен сайта</div>
+            </div>  
+            
+            <div class="example">
+                <div class="example-img">
+                    <img src="" alt="">
+                </div>
+                <div class="example-text">домен сайта</div>
+            </div>
+
+       </div>
     </section>
 
  

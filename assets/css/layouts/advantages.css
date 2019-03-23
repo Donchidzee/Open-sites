@@ -1,0 +1,78 @@
+.advantages {
+    background-image: url('/assets/img/background/skies.png');
+    height: 60vh;
+    width: 100%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* border: 1px solid red; */
+}
+
+.advantages__title{
+    height: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid red; */
+}
+
+.advantages__text {
+    width: 30%;
+
+    font-size: 200%;
+
+    /* border: 1px solid red; */
+}
+
+.advantage__all {
+    height: 73%;
+    width: 80%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+
+    /* border: 2px solid green; */
+}
+
+.advantage {
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    /* border: 1px solid red; */
+}
+
+.advantage__img {
+    height: 40%;
+
+    display: flex;
+    justify-content: center;
+
+    /* border: 1px solid red; */
+}
+
+.main-text {
+    height: 40%;
+
+    /* border: 1px solid red; */
+}
+
+.advantage__text {
+    width: 50%;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center;
+
+    /* border: 1px solid black; */
+}

@@ -82,18 +82,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    text-align: center;
 
     border: 1px solid #fff;
 }
 
 
-.site-card {
+/* .site-card {
     height: 100%;
 
 
 
-    /* border: 1px solid red; */
-}
+     border: 1px solid red;
+}  */
 
 .cards__title {
     font-size: 22px;
@@ -102,9 +103,6 @@
 .cards {
     color: #fff;
 
-    display: flex;
-    justify-content: center;
-    text-align: center;
 
     /* border: 1px solid red; */
 }
