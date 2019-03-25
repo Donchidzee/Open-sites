@@ -26,7 +26,7 @@
     flex-direction: column;
     align-items: center;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .subcription__dark__title {
@@ -39,7 +39,7 @@
     font-size: 40px;
     color: #159ca9;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .subcription__dark__text {
@@ -49,7 +49,7 @@
     font-size: 18px;
     color: #159ca9;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .subcription__dark__name {
@@ -62,7 +62,7 @@
 
     text-align: right;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .subcription__dark__tel {
@@ -75,7 +75,7 @@
 
     text-align: right;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .subcription__dark__button {

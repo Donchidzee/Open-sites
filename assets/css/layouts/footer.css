@@ -1,0 +1,50 @@
+.footer {
+    height: 40vh;
+
+    background-color: #000000;
+}
+
+.topbutton {
+
+
+    
+    background-color: #159ca9;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: 0.75s;
+
+    /* border: 1px solid red; */
+}
+
+.topbutton:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+.topbutton:active {
+    background-color: #555;
+}
+
+/* .topbutton::after {
+ 
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 60px;
+    color: #fff;
+
+    border: 1px solid red;
+  } */
+
+.icon{
+    color: #fff;
+    font-size: 40px;
+    line-height: 60px;
+}
